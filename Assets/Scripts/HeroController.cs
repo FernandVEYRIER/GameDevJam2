@@ -37,6 +37,8 @@ public class HeroController : MonoBehaviour {
 		if (isGrounded && Input.GetAxis("Vertical") > 0)
 		{
 			isGrounded = false;
+			//reset y velocity
+			this.rigidbody2D.velocity = new Vector2(this.rigidbody2D.velocity.x, 0);
 			this.rigidbody2D.AddForce(new Vector2(0, JumpForce));
 		}
 
