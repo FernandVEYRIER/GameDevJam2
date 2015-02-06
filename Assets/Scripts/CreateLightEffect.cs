@@ -25,6 +25,11 @@ public class CreateLightEffect : MonoBehaviour {
 		while (true)
 		{
 			currentIntensity = Random.Range(minLight, averageLight);
+			if ((int)Time.timeSinceLevelLoad % 32 == 0)
+			{
+				currentIntensity = maxLight;
+				//yield return new WaitForSeconds(0.1f);
+			}
 			yield return new WaitForSeconds(0.1f);
 		}
 	}
