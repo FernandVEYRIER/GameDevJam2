@@ -23,7 +23,15 @@ public class GameManager : MonoBehaviour {
 		{
 			isPlaying = !isPlaying;
 			pauseCanvas.SetActive(!pauseCanvas.activeSelf);
-			Time.timeScale = (Time.time == 1) ? 0 : 1;
+			//Time.timeScale = (Time.time == 1) ? 0 : 1;
+		}
+		if (!isPlaying)
+		{
+			Time.timeScale = 0;
+		}
+		else
+		{
+			Time.timeScale = 1;
 		}
 	}
 

@@ -30,6 +30,7 @@ GameObject:
   - 50: {fileID: 5003382}
   - 61: {fileID: 6103382}
   - 95: {fileID: 9503382}
+  - 114: {fileID: 11499950}
   m_Layer: 0
   m_Name: Hero
   m_TagString: Untagged
@@ -198,6 +199,17 @@ MonoBehaviour:
   groundCheck: {fileID: 403382}
   Velocity: 100
   JumpForce: 200
+--- !u!114 &11499950
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 103380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 300125f00fdbe744a9caac3414bac609, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &21203382
 SpriteRenderer:
   m_ObjectHideFlags: 1

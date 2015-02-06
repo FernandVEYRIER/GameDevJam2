@@ -86,7 +86,7 @@ TextureImporter:
         y: 593
         width: 59
         height: 79
-      alignment: 0
+      alignment: 9
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: AttackAndDeathAnims_3
@@ -116,8 +116,8 @@ TextureImporter:
         y: 593
         width: 63
         height: 68
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .5, y: .680000007}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: AttackAndDeathAnims_6
       rect:

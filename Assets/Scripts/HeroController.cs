@@ -34,7 +34,7 @@ public class HeroController : MonoBehaviour {
 		}
 
 		//can he jump ?
-		if (isGrounded && Input.GetAxis("Vertical") > 0)
+		if (isGrounded && Input.GetAxis("Vertical") > 0 && !anim.GetBool("Attack"))
 		{
 			isGrounded = false;
 			//reset y velocity
@@ -46,8 +46,8 @@ public class HeroController : MonoBehaviour {
 		{
 			isGrounded = true;
 		}
-		//sets anim and forces
-		if (canApplyForce)
+		//sets forces
+		if (canApplyForce && !anim.GetBool("Attack"))
 		{
 			this.rigidbody2D.velocity = new Vector2(Input.GetAxis("Horizontal") * Time.deltaTime * Velocity, this.rigidbody2D.velocity.y);
 		}

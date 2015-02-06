@@ -18,7 +18,7 @@ public class GenerateWalls : MonoBehaviour {
 		{
 			for (int i = minWidth; i < maxWidth; i++)
 			{
-				GameObject go = (GameObject) Instantiate(wallObject, new Vector3(3.8f * i, 1.26f * j, 0), Quaternion.identity);
+				GameObject go = (GameObject) Instantiate(wallObject, new Vector3(3.845f * i, 1.26f * j, 0), Quaternion.identity);
 				go.transform.SetParent(this.transform);
 			}
 		}
