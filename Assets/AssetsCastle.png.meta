@@ -1,0 +1,564 @@
+fileFormatVersion: 2
+guid: abfaa5541dba06f4094a90f07cac24c5
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: AssetsCastle_0
+    21300002: AssetsCastle_1
+    21300004: AssetsCastle_2
+    21300006: AssetsCastle_3
+    21300008: AssetsCastle_4
+    21300010: AssetsCastle_5
+    21300012: AssetsCastle_6
+    21300014: AssetsCastle_7
+    21300016: AssetsCastle_8
+    21300018: AssetsCastle_9
+    21300020: AssetsCastle_10
+    21300022: AssetsCastle_11
+    21300024: AssetsCastle_12
+    21300026: AssetsCastle_13
+    21300028: AssetsCastle_14
+    21300030: AssetsCastle_15
+    21300032: AssetsCastle_16
+    21300034: AssetsCastle_17
+    21300036: AssetsCastle_18
+    21300038: AssetsCastle_19
+    21300040: AssetsCastle_20
+    21300042: AssetsCastle_21
+    21300044: AssetsCastle_22
+    21300046: AssetsCastle_23
+    21300048: AssetsCastle_24
+    21300050: AssetsCastle_25
+    21300052: AssetsCastle_26
+    21300054: AssetsCastle_27
+    21300056: AssetsCastle_28
+    21300058: AssetsCastle_29
+    21300060: AssetsCastle_30
+    21300062: AssetsCastle_31
+    21300064: AssetsCastle_32
+    21300066: AssetsCastle_33
+    21300068: AssetsCastle_34
+    21300070: AssetsCastle_35
+    21300072: AssetsCastle_36
+    21300074: AssetsCastle_37
+    21300076: AssetsCastle_38
+    21300078: AssetsCastle_39
+    21300080: AssetsCastle_40
+    21300082: AssetsCastle_41
+    21300084: AssetsCastle_42
+    21300086: AssetsCastle_43
+    21300088: AssetsCastle_44
+    21300090: AssetsCastle_45
+    21300092: AssetsCastle_46
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: AssetsCastle_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 557
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 557
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_2
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 557
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 557
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_4
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 557
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_5
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 552
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_6
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 557
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_7
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 557
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_8
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 557
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_9
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 557
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_10
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 557
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_11
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 557
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_12
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 557
+        width: 34
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_13
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 557
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_14
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 520
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_15
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 521
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_16
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 521
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_17
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 521
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_18
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 521
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_19
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 521
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_20
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 521
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_21
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 521
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_22
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 521
+        width: 4
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_23
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 516
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_24
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 521
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_25
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 521
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_26
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 521
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_27
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 521
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_28
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 486
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_29
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 464
+        width: 64
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_30
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 454
+        width: 27
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_31
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 486
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_32
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 468
+        width: 35
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_33
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 454
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_34
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 64
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_35
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 64
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_36
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 420
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_37
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 42
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_38
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 0
+        width: 42
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_39
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 42
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_40
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 448
+        width: 39
+        height: 65
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_41
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 64
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_43
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 257
+        width: 79
+        height: 62
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_44
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 257
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_45
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 258
+        width: 15
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_46
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 384
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
