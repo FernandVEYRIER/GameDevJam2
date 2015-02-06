@@ -1,0 +1,267 @@
+fileFormatVersion: 2
+guid: b3bafbcf53f84894fb1d314df3435e1d
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: UI_Elems_0
+    21300002: UI_Elems_1
+    21300004: UI_Elems_2
+    21300006: UI_Elems_3
+    21300008: UI_Elems_4
+    21300010: UI_Elems_5
+    21300012: UI_Elems_6
+    21300014: UI_Elems_7
+    21300016: UI_Elems_8
+    21300018: UI_Elems_9
+    21300020: UI_Elems_10
+    21300022: UI_Elems_11
+    21300024: UI_Elems_12
+    21300026: UI_Elems_13
+    21300028: UI_Elems_14
+    21300030: UI_Elems_15
+    21300032: UI_Elems_16
+    21300034: UI_Elems_17
+    21300036: UI_Elems_18
+    21300038: UI_Elems_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: UI_Elems_0
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 459
+        width: 411
+        height: 125
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_Elems_1
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 518
+        width: 283
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_Elems_2
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 473
+        width: 282
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_Elems_3
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 394
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_Elems_4
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 393
+        width: 281
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_Elems_5
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 394
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_Elems_6
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 428
+        width: 282
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_Elems_7
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 428
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_Elems_8
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 428
+        width: 59
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_Elems_9
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 428
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_Elems_10
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 428
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_Elems_11
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 428
+        width: 36
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_Elems_12
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 428
+        width: 21
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_Elems_13
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 428
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_Elems_14
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 428
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_Elems_15
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 428
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_Elems_16
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 428
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_Elems_17
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 383
+        width: 282
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_Elems_18
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 120
+        width: 406
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI_Elems_19
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 42
+        width: 410
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
