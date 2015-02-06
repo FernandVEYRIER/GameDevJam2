@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour {
 	void Start () 
 	{
 		isPlaying = true;
-
+		pauseCanvas.SetActive(false);
 	}
 	
 
@@ -25,5 +25,15 @@ public class GameManager : MonoBehaviour {
 			pauseCanvas.SetActive(!pauseCanvas.activeSelf);
 			Time.timeScale = (Time.time == 1) ? 0 : 1;
 		}
+	}
+
+	public void onReloadButton()
+	{
+		Application.LoadLevel(Application.loadedLevel);
+	}
+
+	public void onMenuButton()
+	{
+		Application.LoadLevel(0);
 	}
 }
