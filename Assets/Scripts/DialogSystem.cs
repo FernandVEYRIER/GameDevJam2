@@ -24,6 +24,7 @@ public class DialogSystem : MonoBehaviour {
 
 	public bool dispOnStart = true;
 	public bool dispOnCollision = false;
+	public bool destroyAfterDisp = false;
 	bool isDisplaying = false;
 
 	void Start () 
@@ -47,6 +48,8 @@ public class DialogSystem : MonoBehaviour {
 				GameManager.isPlaying = true;
 				canvasDisp.SetActive(false);
 				isDisplaying = false;
+				if (destroyAfterDisp)
+					Destroy(this.gameObject);
 				i = 0;
 			}
 			else
@@ -62,7 +65,7 @@ public class DialogSystem : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (dispOnCollision)
+        if (dispOnCollision && col.collider2D.tag == "Player")
         {
             isDisplaying = true;
         }

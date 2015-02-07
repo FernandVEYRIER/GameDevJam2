@@ -65,7 +65,6 @@ public class HeroController : MonoBehaviour {
 		}
 		foreach(ContactPoint2D contactPoint in allContacts)
 		{
-			Debug.Log(contactPoint.normal);
 			if (contactPoint.normal == new Vector2(0, 1))
 			{
 				isOnGround = true;
