@@ -21,7 +21,9 @@ public class AttackHeros : MonoBehaviour {
 	IEnumerator		timer()
 	{
 		activate = true;
-		yield return new WaitForSeconds (1);
+		gameObject.GetComponent<Animator> ().SetBool ("Attack", true);
+		yield return new WaitForSeconds (0.5f);
+		gameObject.GetComponent<Animator> ().SetBool ("Attack", false);
 		activate = false;
 	}
 }
