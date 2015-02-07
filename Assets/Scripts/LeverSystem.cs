@@ -7,10 +7,12 @@ public class LeverSystem : MonoBehaviour {
 	public Sprite leverSpriteOff;
 	public Sprite leverSpriteOn;
 
+	[Header("Lights to be activated")]
 	public GameObject [] torch;
 
 	public KeyCode key;
 	bool areActive = false;
+	bool canActivate = false;
 
 	void Start () 
 	{
@@ -20,10 +22,10 @@ public class LeverSystem : MonoBehaviour {
 			_torch.SetActive(false);
 		}
 	}
-	
-	void OnTriggerStay2D(Collider2D col)
+
+	void Update()
 	{
-		if (Input.GetKeyDown(key))
+		if (canActivate && Input.GetKeyDown(key))
 		{
 			areActive = !areActive;
 			if (areActive)
@@ -44,5 +46,15 @@ public class LeverSystem : MonoBehaviour {
 				}
 			}
 		}
+	}
+
+	void OnTriggerEnter2D(Collider2D col)
+	{
+		canActivate = true;
+	}
+
+	void OnTriggerExit2D(Collider2D col)
+	{
+		canActivate = false;
 	}
 }
