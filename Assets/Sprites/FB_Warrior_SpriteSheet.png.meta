@@ -1,0 +1,1158 @@
+fileFormatVersion: 2
+guid: 301b0459e2022c747a3b2da727c3eab2
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: FB_Warrior_SpriteSheet_0
+    21300002: FB_Warrior_SpriteSheet_1
+    21300004: FB_Warrior_SpriteSheet_2
+    21300006: FB_Warrior_SpriteSheet_3
+    21300008: FB_Warrior_SpriteSheet_4
+    21300010: FB_Warrior_SpriteSheet_5
+    21300012: FB_Warrior_SpriteSheet_6
+    21300014: FB_Warrior_SpriteSheet_7
+    21300016: FB_Warrior_SpriteSheet_8
+    21300018: FB_Warrior_SpriteSheet_9
+    21300020: FB_Warrior_SpriteSheet_10
+    21300022: FB_Warrior_SpriteSheet_11
+    21300024: FB_Warrior_SpriteSheet_12
+    21300026: FB_Warrior_SpriteSheet_13
+    21300028: FB_Warrior_SpriteSheet_14
+    21300030: FB_Warrior_SpriteSheet_15
+    21300032: FB_Warrior_SpriteSheet_16
+    21300034: FB_Warrior_SpriteSheet_17
+    21300036: FB_Warrior_SpriteSheet_18
+    21300038: FB_Warrior_SpriteSheet_19
+    21300040: FB_Warrior_SpriteSheet_20
+    21300042: FB_Warrior_SpriteSheet_21
+    21300044: FB_Warrior_SpriteSheet_22
+    21300046: FB_Warrior_SpriteSheet_23
+    21300048: FB_Warrior_SpriteSheet_24
+    21300050: FB_Warrior_SpriteSheet_25
+    21300052: FB_Warrior_SpriteSheet_26
+    21300054: FB_Warrior_SpriteSheet_27
+    21300056: FB_Warrior_SpriteSheet_28
+    21300058: FB_Warrior_SpriteSheet_29
+    21300060: FB_Warrior_SpriteSheet_30
+    21300062: FB_Warrior_SpriteSheet_31
+    21300064: FB_Warrior_SpriteSheet_32
+    21300066: FB_Warrior_SpriteSheet_33
+    21300068: FB_Warrior_SpriteSheet_34
+    21300070: FB_Warrior_SpriteSheet_35
+    21300072: FB_Warrior_SpriteSheet_36
+    21300074: FB_Warrior_SpriteSheet_37
+    21300076: FB_Warrior_SpriteSheet_38
+    21300078: FB_Warrior_SpriteSheet_39
+    21300080: FB_Warrior_SpriteSheet_40
+    21300082: FB_Warrior_SpriteSheet_41
+    21300084: FB_Warrior_SpriteSheet_42
+    21300086: FB_Warrior_SpriteSheet_43
+    21300088: FB_Warrior_SpriteSheet_44
+    21300090: FB_Warrior_SpriteSheet_45
+    21300092: FB_Warrior_SpriteSheet_46
+    21300094: FB_Warrior_SpriteSheet_47
+    21300096: FB_Warrior_SpriteSheet_48
+    21300098: FB_Warrior_SpriteSheet_49
+    21300100: FB_Warrior_SpriteSheet_50
+    21300102: FB_Warrior_SpriteSheet_51
+    21300104: FB_Warrior_SpriteSheet_52
+    21300106: FB_Warrior_SpriteSheet_53
+    21300108: FB_Warrior_SpriteSheet_54
+    21300110: FB_Warrior_SpriteSheet_55
+    21300112: FB_Warrior_SpriteSheet_56
+    21300114: FB_Warrior_SpriteSheet_57
+    21300116: FB_Warrior_SpriteSheet_58
+    21300118: FB_Warrior_SpriteSheet_59
+    21300120: FB_Warrior_SpriteSheet_60
+    21300122: FB_Warrior_SpriteSheet_61
+    21300124: FB_Warrior_SpriteSheet_62
+    21300126: FB_Warrior_SpriteSheet_63
+    21300128: FB_Warrior_SpriteSheet_64
+    21300130: FB_Warrior_SpriteSheet_65
+    21300132: FB_Warrior_SpriteSheet_66
+    21300134: FB_Warrior_SpriteSheet_67
+    21300136: FB_Warrior_SpriteSheet_68
+    21300138: FB_Warrior_SpriteSheet_69
+    21300140: FB_Warrior_SpriteSheet_70
+    21300142: FB_Warrior_SpriteSheet_71
+    21300144: FB_Warrior_SpriteSheet_72
+    21300146: FB_Warrior_SpriteSheet_73
+    21300148: FB_Warrior_SpriteSheet_74
+    21300150: FB_Warrior_SpriteSheet_75
+    21300152: FB_Warrior_SpriteSheet_76
+    21300154: FB_Warrior_SpriteSheet_77
+    21300156: FB_Warrior_SpriteSheet_78
+    21300158: FB_Warrior_SpriteSheet_79
+    21300160: FB_Warrior_SpriteSheet_80
+    21300162: FB_Warrior_SpriteSheet_81
+    21300164: FB_Warrior_SpriteSheet_82
+    21300166: FB_Warrior_SpriteSheet_83
+    21300168: FB_Warrior_SpriteSheet_84
+    21300170: FB_Warrior_SpriteSheet_85
+    21300172: FB_Warrior_SpriteSheet_86
+    21300174: FB_Warrior_SpriteSheet_87
+    21300176: FB_Warrior_SpriteSheet_88
+    21300178: FB_Warrior_SpriteSheet_89
+    21300180: FB_Warrior_SpriteSheet_90
+    21300182: FB_Warrior_SpriteSheet_91
+    21300184: FB_Warrior_SpriteSheet_92
+    21300186: FB_Warrior_SpriteSheet_93
+    21300188: FB_Warrior_SpriteSheet_94
+    21300190: FB_Warrior_SpriteSheet_95
+    21300192: FB_Warrior_SpriteSheet_96
+    21300194: FB_Warrior_SpriteSheet_97
+    21300196: FB_Warrior_SpriteSheet_98
+    21300198: FB_Warrior_SpriteSheet_99
+    21300200: FB_Warrior_SpriteSheet_100
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: FB_Warrior_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1477
+        width: 99
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1477
+        width: 100
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 1477
+        width: 99
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 1477
+        width: 99
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1477
+        width: 98
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 1477
+        width: 99
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1466
+        width: 96
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 1466
+        width: 96
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 1466
+        width: 96
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 1469
+        width: 79
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 1469
+        width: 79
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 1469
+        width: 79
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1364
+        width: 99
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1364
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 1359
+        width: 83
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1353
+        width: 77
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1357
+        width: 83
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 1364
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 1364
+        width: 99
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1359
+        width: 100
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 1359
+        width: 99
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 1355
+        width: 102
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 1355
+        width: 97
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 1355
+        width: 97
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 1355
+        width: 98
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1244
+        width: 96
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1244
+        width: 95
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1246
+        width: 86
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1244
+        width: 85
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1246
+        width: 96
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1246
+        width: 98
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 1246
+        width: 97
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 1246
+        width: 93
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1242
+        width: 97
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 1242
+        width: 96
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1132
+        width: 79
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1130
+        width: 77
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1132
+        width: 81
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1132
+        width: 77
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1137
+        width: 79
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 1139
+        width: 88
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 1141
+        width: 94
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1139
+        width: 92
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 1141
+        width: 94
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 1141
+        width: 95
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1025
+        width: 88
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1027
+        width: 80
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1025
+        width: 86
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1025
+        width: 87
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1025
+        width: 78
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1059
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 1050
+        width: 60
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 1031
+        width: 53
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 1029
+        width: 55
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 1036
+        width: 58
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 1044
+        width: 62
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 1059
+        width: 53
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 1057
+        width: 55
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 918
+        width: 101
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 886
+        width: 111
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 884
+        width: 100
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 877
+        width: 123
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 894
+        width: 129
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 918
+        width: 118
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 918
+        width: 118
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 918
+        width: 112
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 730
+        width: 87
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 730
+        width: 99
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 730
+        width: 128
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 729
+        width: 139
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 708
+        width: 123
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_71
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 712
+        width: 96
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_72
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 717
+        width: 79
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 723
+        width: 77
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_74
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 520
+        width: 86
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_75
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 520
+        width: 92
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_76
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 519
+        width: 99
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_77
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 520
+        width: 114
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_78
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 520
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_79
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 519
+        width: 109
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_80
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 517
+        width: 111
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_81
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 513
+        width: 97
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_82
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 301
+        width: 118
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_83
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 275
+        width: 187
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_84
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 282
+        width: 54
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_85
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 288
+        width: 152
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_86
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 286
+        width: 154
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_87
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 286
+        width: 154
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_88
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 286
+        width: 152
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_89
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 286
+        width: 154
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_90
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 89
+        width: 115
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_91
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 53
+        width: 128
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_92
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 78
+        width: 148
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_93
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 145
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_94
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 97
+        width: 138
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_95
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 130
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_96
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 194
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_97
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 179
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_98
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 98
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_99
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 68
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB_Warrior_SpriteSheet_100
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 63
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
