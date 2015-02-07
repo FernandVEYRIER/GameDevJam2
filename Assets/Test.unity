@@ -538,8 +538,8 @@ Prefab:
 --- !u!1 &885617553
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 115304, guid: d3b5dece37afdc44d95a8cf4eae03ace, type: 2}
+  m_PrefabInternal: {fileID: 1906254648}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 885617557}
@@ -547,7 +547,7 @@ GameObject:
   - 64: {fileID: 885617555}
   - 23: {fileID: 885617554}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -556,8 +556,9 @@ GameObject:
 --- !u!23 &885617554
 Renderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 2315304, guid: d3b5dece37afdc44d95a8cf4eae03ace,
+    type: 2}
+  m_PrefabInternal: {fileID: 1906254648}
   m_GameObject: {fileID: 885617553}
   m_Enabled: 1
   m_CastShadows: 1
@@ -576,8 +577,9 @@ Renderer:
 --- !u!64 &885617555
 MeshCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 6415304, guid: d3b5dece37afdc44d95a8cf4eae03ace,
+    type: 2}
+  m_PrefabInternal: {fileID: 1906254648}
   m_GameObject: {fileID: 885617553}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -589,15 +591,16 @@ MeshCollider:
 --- !u!33 &885617556
 MeshFilter:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 3315304, guid: d3b5dece37afdc44d95a8cf4eae03ace,
+    type: 2}
+  m_PrefabInternal: {fileID: 1906254648}
   m_GameObject: {fileID: 885617553}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &885617557
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 415304, guid: d3b5dece37afdc44d95a8cf4eae03ace, type: 2}
+  m_PrefabInternal: {fileID: 1906254648}
   m_GameObject: {fileID: 885617553}
   m_LocalRotation: {x: -.707106829, y: 0, z: 0, w: .707106829}
   m_LocalPosition: {x: -.280000001, y: -.0299999993, z: -0}
@@ -1029,3 +1032,47 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300086, guid: abfaa5541dba06f4094a90f07cac24c5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1001 &1906254648
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 415304, guid: d3b5dece37afdc44d95a8cf4eae03ace, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -.280000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 415304, guid: d3b5dece37afdc44d95a8cf4eae03ace, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -.0299999993
+      objectReference: {fileID: 0}
+    - target: {fileID: 415304, guid: d3b5dece37afdc44d95a8cf4eae03ace, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 415304, guid: d3b5dece37afdc44d95a8cf4eae03ace, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 415304, guid: d3b5dece37afdc44d95a8cf4eae03ace, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 415304, guid: d3b5dece37afdc44d95a8cf4eae03ace, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 415304, guid: d3b5dece37afdc44d95a8cf4eae03ace, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 415304, guid: d3b5dece37afdc44d95a8cf4eae03ace, type: 2}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: d3b5dece37afdc44d95a8cf4eae03ace, type: 2}
+  m_RootGameObject: {fileID: 885617553}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
