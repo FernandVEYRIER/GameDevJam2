@@ -2,9 +2,6 @@
 using System.Collections;
 
 public class HeroController : MonoBehaviour {
-	//TODO: 
-	//headseekers
-	//event QTE
 	
 	public LayerMask WhatIsGround;
 	public Transform groundCheck;
@@ -41,7 +38,6 @@ public class HeroController : MonoBehaviour {
 			this.rigidbody2D.velocity = new Vector2(this.rigidbody2D.velocity.x, 0);
 			this.rigidbody2D.AddForce(new Vector2(0, JumpForce));
 		}
-		
 		if (Physics2D.OverlapCircle(groundCheck.position, 0.1f, WhatIsGround))
 		{
 			isGrounded = true;
@@ -62,8 +58,14 @@ public class HeroController : MonoBehaviour {
 		bool isOnGround = false;
 		ContactPoint2D[] allContacts;
 		allContacts = col.contacts;
+		if (isGrounded)
+		{
+			canApplyForce = true;
+			return;
+		}
 		foreach(ContactPoint2D contactPoint in allContacts)
 		{
+			Debug.Log(contactPoint.normal);
 			if (contactPoint.normal == new Vector2(0, 1))
 			{
 				isOnGround = true;
