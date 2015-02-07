@@ -9,6 +9,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 464316}
   - 212: {fileID: 21264316}
+  - 114: {fileID: 11484586}
+  - 61: {fileID: 6184586}
   m_Layer: 0
   m_Name: LeverRed
   m_TagString: Untagged
@@ -28,6 +30,30 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!61 &6184586
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 164316}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Size: {x: .469999999, y: .540000021}
+  m_Center: {x: -.0789601058, y: .225120008}
+--- !u!114 &11484586
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 164316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 686131684f02112488aa5d52e217c755, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  door: {fileID: 0}
+  key: 101
 --- !u!212 &21264316
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -40,13 +66,13 @@ SpriteRenderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  - {fileID: 2100000, guid: 2d6ec755c431a464fbdf5ec4517f6d4a, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 0
+  m_SortingLayerID: 3854337419
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300004, guid: b981bd4133ae08646827a26bde524cda, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

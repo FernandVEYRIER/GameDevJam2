@@ -39,8 +39,8 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Size: {x: .469999999, y: .540000021}
-  m_Center: {x: -.0806400329, y: .225120008}
+  m_Size: {x: .809549332, y: .540000021}
+  m_Center: {x: -.033383131, y: .225120008}
 --- !u!114 &11484454
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -55,6 +55,7 @@ MonoBehaviour:
   leverSpriteOff: {fileID: 21300002, guid: b981bd4133ae08646827a26bde524cda, type: 3}
   leverSpriteOn: {fileID: 21300008, guid: b981bd4133ae08646827a26bde524cda, type: 3}
   torch:
+  - {fileID: 0}
   - {fileID: 0}
   key: 101
 --- !u!212 &21284454
@@ -75,7 +76,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 0
+  m_SortingLayerID: 3854337419
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300002, guid: b981bd4133ae08646827a26bde524cda, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

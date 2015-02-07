@@ -6,12 +6,30 @@ public class LeverDoorSystem : MonoBehaviour {
 	public GameObject door;	
 	public KeyCode key;
 
-	void OnTriggerStay2D(Collider2D col)
+	public Sprite leverSpriteOff;
+	public Sprite leverSpriteOn;
+
+	bool canOpen;
+
+	void Update()
 	{
-		if (Input.GetKeyUp(key))
+		if (canOpen && Input.GetKeyDown(key))
 		{
-			//change door state
-			Debug.Log("Door");
+			door.GetComponent<Animator>().SetBool("isOpen", !door.GetComponent<Animator>().GetBool("isOpen"));
+			if (door.GetComponent<Animator>().GetBool("isOpen"))
+				this.GetComponent<SpriteRenderer>().sprite = leverSpriteOn;
+			else
+				this.GetComponent<SpriteRenderer>().sprite = leverSpriteOff;
 		}
+	}
+
+	void OnTriggerExit2D(Collider2D col)
+	{
+		canOpen = false;
+	}
+
+	void OnTriggerEnter2D(Collider2D col)
+	{
+		canOpen = true;
 	}
 }
