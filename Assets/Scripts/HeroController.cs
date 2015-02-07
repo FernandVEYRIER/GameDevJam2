@@ -30,7 +30,7 @@ public class HeroController : MonoBehaviour {
 		//face the right direction
 		if (Mathf.RoundToInt(this.rigidbody2D.velocity.x) != 0)
 		{
-			this.transform.localScale = new Vector3((Mathf.RoundToInt(this.rigidbody2D.velocity.x) > 0) ? -1 : 1, 1, 1);
+			this.transform.localScale = new Vector3((Mathf.RoundToInt(this.rigidbody2D.velocity.x) > 0) ? 1 : -1, 1, 1);
 		}
 
 		//can he jump ?
