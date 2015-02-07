@@ -42,3 +42,11 @@ TagManager:
     userID: 0
     uniqueID: 0
     locked: 0
+  - name: BackGround
+    userID: 1
+    uniqueID: 1621047383
+    locked: 0
+  - name: Hero
+    userID: 2
+    uniqueID: 3854337419
+    locked: 0

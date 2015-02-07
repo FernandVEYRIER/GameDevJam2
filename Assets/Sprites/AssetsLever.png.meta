@@ -1,0 +1,113 @@
+fileFormatVersion: 2
+guid: b981bd4133ae08646827a26bde524cda
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: AssetsLever_0
+    21300002: AssetsLever_1
+    21300004: AssetsLever_2
+    21300006: AssetsLever_3
+    21300008: AssetsLever_4
+    21300010: AssetsLever_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: AssetsLever_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 64
+        width: 47
+        height: 54
+      alignment: 9
+      pivot: {x: .664425611, y: .0831110924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsLever_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 64
+        width: 47
+        height: 54
+      alignment: 9
+      pivot: {x: .671574533, y: .0831110924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsLever_2
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 64
+        width: 47
+        height: 54
+      alignment: 9
+      pivot: {x: .668000221, y: .0831110924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsLever_3
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 0
+        width: 42
+        height: 55
+      alignment: 9
+      pivot: {x: .299999952, y: .0784727782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsLever_4
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 0
+        width: 42
+        height: 55
+      alignment: 9
+      pivot: {x: .307999939, y: .0784727782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsLever_5
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 0
+        width: 42
+        height: 55
+      alignment: 9
+      pivot: {x: .295999795, y: .0845818669}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
