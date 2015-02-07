@@ -9,7 +9,7 @@ public class LeverDoorSystem : MonoBehaviour {
 	public Sprite leverSpriteOff;
 	public Sprite leverSpriteOn;
 
-	bool canOpen;
+	bool canOpen = false;
 
 	void Update()
 	{
@@ -25,11 +25,13 @@ public class LeverDoorSystem : MonoBehaviour {
 
 	void OnTriggerExit2D(Collider2D col)
 	{
-		canOpen = false;
+		if (col.collider2D.tag == "Player")
+			canOpen = false;
 	}
 
 	void OnTriggerEnter2D(Collider2D col)
 	{
-		canOpen = true;
+		if (col.collider2D.tag == "Player")
+			canOpen = true;
 	}
 }

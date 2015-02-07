@@ -1218,7 +1218,7 @@ Prefab:
       objectReference: {fileID: 40114254}
     - target: {fileID: 11418382, guid: 9ae059190f42dfc41abd58c599be963c, type: 2}
       propertyPath: _dialogBox.Array.data[0].text
-      value: Pull red levers to open harrows !
+      value: Pull red levers pressing [E] to open harrows !
       objectReference: {fileID: 0}
     - target: {fileID: 11418382, guid: 9ae059190f42dfc41abd58c599be963c, type: 2}
       propertyPath: _dialogBox.Array.data[0].characterImage
@@ -1359,7 +1359,7 @@ Prefab:
       objectReference: {fileID: 709634399}
     - target: {fileID: 11418382, guid: 9ae059190f42dfc41abd58c599be963c, type: 2}
       propertyPath: _dialogBox.Array.data[0].text
-      value: Pull yellow levers to activate lights !
+      value: Pull yellow levers pressing [E] to activate lights !
       objectReference: {fileID: 0}
     - target: {fileID: 11418382, guid: 9ae059190f42dfc41abd58c599be963c, type: 2}
       propertyPath: _dialogBox.Array.data[0].characterImage
@@ -2179,7 +2179,7 @@ MonoBehaviour:
   characterImage: {fileID: 2058655200}
   _dialogBox:
   - characterName: Feufollet
-    text: Pull yellow levers to activate lights !
+    text: Pull yellow levers pressing [E] to activate lights !
     backGround: {fileID: 21300000, guid: dee22e3683cf47e44af3aa8714f9778d, type: 3}
     characterImage: {fileID: 21300000, guid: 1f35f19c50328714aa829422f567d3cb, type: 3}
   dispOnStart: 0
@@ -3453,7 +3453,7 @@ MonoBehaviour:
   characterImage: {fileID: 1354785368}
   _dialogBox:
   - characterName: Feufollet
-    text: Pull red levers to open harrows !
+    text: Pull red levers pressing [E] to open harrows !
     backGround: {fileID: 21300000, guid: dee22e3683cf47e44af3aa8714f9778d, type: 3}
     characterImage: {fileID: 21300000, guid: 1f35f19c50328714aa829422f567d3cb, type: 3}
   dispOnStart: 0

@@ -50,11 +50,13 @@ public class LeverSystem : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D col)
 	{
-		canActivate = true;
+		if (col.collider2D.tag == "Player")
+			canActivate = true;
 	}
 
 	void OnTriggerExit2D(Collider2D col)
 	{
-		canActivate = false;
+		if (col.collider2D.tag == "Player")
+			canActivate = false;
 	}
 }
