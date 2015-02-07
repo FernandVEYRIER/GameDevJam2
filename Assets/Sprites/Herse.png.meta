@@ -40,7 +40,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 70
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []
@@ -53,8 +53,8 @@ TextureImporter:
         y: 108
         width: 62
         height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 2
+      pivot: {x: .5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Herse_1
       rect:
@@ -63,8 +63,8 @@ TextureImporter:
         y: 48
         width: 62
         height: 79
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 2
+      pivot: {x: .5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Herse_2
       rect:
@@ -72,9 +72,9 @@ TextureImporter:
         x: 129
         y: 0
         width: 62
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 127
+      alignment: 2
+      pivot: {x: .5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
