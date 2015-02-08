@@ -51,6 +51,8 @@ TextureImporter:
     21300092: AssetsCastle_46
     21300094: AssetsCastle_47
     21300096: AssetsCastle_48
+    21300098: AssetsCastle_49
+    21300100: AssetsCastle_50
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -579,6 +581,26 @@ TextureImporter:
         y: 296
         width: 33
         height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_49
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 65
+        width: 63
+        height: 126
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssetsCastle_50
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 193
+        width: 62
+        height: 125
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
