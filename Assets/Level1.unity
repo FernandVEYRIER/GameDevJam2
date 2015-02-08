@@ -2034,6 +2034,8 @@ GameObject:
   - 212: {fileID: 123909926}
   - 114: {fileID: 123909925}
   - 61: {fileID: 123909924}
+  - 50: {fileID: 123909929}
+  - 114: {fileID: 123909928}
   m_Layer: 0
   m_Name: LeverYellow
   m_TagString: Untagged
@@ -2106,6 +2108,34 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
+--- !u!114 &123909928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11401022, guid: ac6b49db39d33d2478182bcde77ae68d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1240342679}
+  m_GameObject: {fileID: 123909923}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0d03e013062cd04ba998f587037bc20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!50 &123909929
+Rigidbody2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 5001022, guid: ac6b49db39d33d2478182bcde77ae68d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1240342679}
+  m_GameObject: {fileID: 123909923}
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: .0500000007
+  m_GravityScale: 0
+  m_FixedAngle: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
 --- !u!1001 &124159619
 Prefab:
   m_ObjectHideFlags: 0
@@ -33993,6 +34023,8 @@ GameObject:
   - 212: {fileID: 1462940844}
   - 114: {fileID: 1462940843}
   - 61: {fileID: 1462940842}
+  - 50: {fileID: 1462940847}
+  - 114: {fileID: 1462940846}
   m_Layer: 0
   m_Name: LeverYellow
   m_TagString: Untagged
@@ -34065,6 +34097,34 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
+--- !u!114 &1462940846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11401022, guid: ac6b49db39d33d2478182bcde77ae68d,
+    type: 2}
+  m_PrefabInternal: {fileID: 906332606}
+  m_GameObject: {fileID: 1462940841}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0d03e013062cd04ba998f587037bc20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!50 &1462940847
+Rigidbody2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 5001022, guid: ac6b49db39d33d2478182bcde77ae68d,
+    type: 2}
+  m_PrefabInternal: {fileID: 906332606}
+  m_GameObject: {fileID: 1462940841}
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: .0500000007
+  m_GravityScale: 0
+  m_FixedAngle: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
 --- !u!1 &1464863222
 GameObject:
   m_ObjectHideFlags: 0

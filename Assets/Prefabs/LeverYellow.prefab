@@ -11,6 +11,8 @@ GameObject:
   - 212: {fileID: 21284454}
   - 114: {fileID: 11484454}
   - 61: {fileID: 6184454}
+  - 50: {fileID: 5001022}
+  - 114: {fileID: 11401022}
   m_Layer: 0
   m_Name: LeverYellow
   m_TagString: Untagged
@@ -30,6 +32,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!50 &5001022
+Rigidbody2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 184454}
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: .0500000007
+  m_GravityScale: 0
+  m_FixedAngle: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
 --- !u!61 &6184454
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -41,6 +58,17 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_Size: {x: .809549332, y: .540000021}
   m_Center: {x: -.033383131, y: .225120008}
+--- !u!114 &11401022
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 184454}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0d03e013062cd04ba998f587037bc20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11484454
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -57,7 +85,9 @@ MonoBehaviour:
   torch:
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
   key: 101
+  areActive: 0
 --- !u!212 &21284454
 SpriteRenderer:
   m_ObjectHideFlags: 1
