@@ -16,7 +16,8 @@ public class TrapTrigger : MonoBehaviour {
 		{
 			if (anim.GetBool("isOpen") == false)
 				anim.SetBool("isOpen", true);
-			Invoke("closeTrap", 1f);
+			//close trap
+			//Invoke("closeTrap", 1f);
 		}
 	}
 
