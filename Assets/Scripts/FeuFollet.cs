@@ -8,9 +8,10 @@ public class FeuFollet : MonoBehaviour {
 	public bool	time = false;
 	private bool	mouse = false;
 	private Vector3 save;
-
+	Vector3 vel;
 	void Start ()
 	{
+		Screen.showCursor = false;
 		save = transform.position;
 	}
 	
@@ -19,7 +20,6 @@ public class FeuFollet : MonoBehaviour {
 	{
 		if (activate == true)
 		{
-			Screen.showCursor = false;
 			if (transform.position == GameObject.Find("SpawLum").transform.position && time == false && mouse == true)
 				time = true;
 			SpawPos();
@@ -53,6 +53,7 @@ public class FeuFollet : MonoBehaviour {
 			activate = true;
 			mouse = false;
 			transform.position = GameObject.Find("SpawLum").transform.position;
+			Camera.main.transform.position =  new Vector3 (transform.position.x, transform.position.y, Camera.main.transform.position.z);
 		}
 	}
 
