@@ -28,13 +28,13 @@ public class LeverDoorSystem : MonoBehaviour {
 
 	void OnTriggerExit2D(Collider2D col)
 	{
-		if (col.collider2D.tag == "Player")
+		if (col.tag == "Feufollet" || col.tag == "Player")
 			canOpen = false;
 	}
 
 	void OnTriggerEnter2D(Collider2D col)
 	{
-		if (col.collider2D.tag == "Player")
+		if (col.tag == "Feufollet" || col.tag == "Player")
 			canOpen = true;
 	}
 }
