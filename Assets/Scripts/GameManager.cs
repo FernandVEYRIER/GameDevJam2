@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour {
 	public static bool isPlaying;
 
 	public GameObject pauseCanvas;
+	public Transform checkpoint;
 
 
 	void Start () 
@@ -43,5 +44,20 @@ public class GameManager : MonoBehaviour {
 	public void onMenuButton()
 	{
 		Application.LoadLevel(0);
+	}
+
+	GameObject player;
+
+	public void playerDeath(GameObject _player)
+	{
+		_player.SetActive(false);
+		player = _player;
+		Invoke ("respawnPlayer", 1);
+	}
+
+	void respawnPlayer()
+	{		
+		player.SetActive(true);
+		player.transform.position = checkpoint.position;
 	}
 }
