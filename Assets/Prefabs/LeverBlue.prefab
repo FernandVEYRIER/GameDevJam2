@@ -49,12 +49,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 117954}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 183fcd35c319236458f6ac314f3dabe5, type: 3}
+  m_Script: {fileID: 11500000, guid: f599686613ed3a445b81483485f4759c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   levier_on: {fileID: 21300006, guid: b981bd4133ae08646827a26bde524cda, type: 3}
   levier_off: {fileID: 21300000, guid: b981bd4133ae08646827a26bde524cda, type: 3}
-  luciole: {fileID: 103654, guid: eff8f3db1bfa0104f93e0ffc3f3d3a26, type: 2}
+  luciole: {fileID: 197504, guid: 580696d903d54ea4899f8d1e6920f8a6, type: 2}
 --- !u!212 &21217954
 SpriteRenderer:
   m_ObjectHideFlags: 1
