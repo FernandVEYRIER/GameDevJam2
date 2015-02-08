@@ -45,6 +45,7 @@ public class GameManager : MonoBehaviour {
 	public void onMenuButton()
 	{
 		Time.timeScale = 1;
+		isPlaying = true;
 		Application.LoadLevel(0);
 	}
 
