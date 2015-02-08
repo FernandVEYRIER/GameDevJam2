@@ -11,6 +11,7 @@ GameObject:
   - 212: {fileID: 21264316}
   - 114: {fileID: 11484586}
   - 61: {fileID: 6184586}
+  - 50: {fileID: 5001526}
   m_Layer: 0
   m_Name: LeverRed
   m_TagString: Untagged
@@ -30,6 +31,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!50 &5001526
+Rigidbody2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 164316}
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: .0500000007
+  m_GravityScale: 0
+  m_FixedAngle: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
 --- !u!61 &6184586
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -52,8 +68,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 686131684f02112488aa5d52e217c755, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  door: {fileID: 0}
+  door:
+  - {fileID: 0}
   key: 101
+  leverSpriteOff: {fileID: 21300004, guid: b981bd4133ae08646827a26bde524cda, type: 3}
+  leverSpriteOn: {fileID: 21300010, guid: b981bd4133ae08646827a26bde524cda, type: 3}
 --- !u!212 &21264316
 SpriteRenderer:
   m_ObjectHideFlags: 1
