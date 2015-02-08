@@ -9,7 +9,7 @@ public class LeverDoorSystem : MonoBehaviour {
 	public Sprite leverSpriteOff;
 	public Sprite leverSpriteOn;
 
-	bool canOpen = false;
+	public bool canOpen = false;
 
 	void Update()
 	{

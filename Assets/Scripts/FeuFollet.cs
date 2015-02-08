@@ -17,6 +17,8 @@ public class FeuFollet : MonoBehaviour {
 
 	void Update ()
 	{
+		if (GameObject.Find("SpawLum") == null)
+			return;
 		if (activate == true)
 		{
 			Screen.showCursor = false;

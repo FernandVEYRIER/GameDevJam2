@@ -11,7 +11,8 @@ public class LeverSystem : MonoBehaviour {
 	public GameObject [] torch;
 
 	public KeyCode key;
-	bool areActive = false;
+	[HideInInspector]
+	public bool areActive = false;
 	bool canActivate = false;
 
 	void Start () 
