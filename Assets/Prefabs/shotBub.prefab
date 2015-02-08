@@ -222,7 +222,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activate: 0
   time: 0
-  lum: {fileID: 485720, guid: 89f926f016d3d97419da19b820850e00, type: 2}
 --- !u!198 &19897504
 ParticleSystem:
   m_ObjectHideFlags: 1
