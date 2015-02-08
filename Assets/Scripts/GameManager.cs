@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour {
 	public static bool isPlaying;
 
 	public GameObject pauseCanvas;
+	public GameObject winCanvas;
 	public Transform checkpoint;
 
 
@@ -14,6 +15,7 @@ public class GameManager : MonoBehaviour {
 	{
 		isPlaying = true;
 		pauseCanvas.SetActive(false);
+		winCanvas.SetActive(false);
 	}
 	
 
@@ -62,5 +64,17 @@ public class GameManager : MonoBehaviour {
 	{		
 		player.SetActive(true);
 		player.transform.position = checkpoint.position;
+	}
+
+	public void onNextLevelButton(int level)
+	{
+		isPlaying = true;
+		Application.LoadLevel(level);
+	}
+
+	public void winPlayer()
+	{
+		isPlaying = false;
+		winCanvas.SetActive(true);
 	}
 }
