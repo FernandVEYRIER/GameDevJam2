@@ -17,8 +17,6 @@ public class FollowActive : MonoBehaviour {
 	void Update () 
 	{
 		//player = GameObject.FindGameObjectWithTag(players[index]);
-		Debug.Log (player);
-
 		if (Input.GetKeyDown(KeyCode.Tab))
 		{
 			if (GameObject.FindGameObjectWithTag("Feufollet") != null)
