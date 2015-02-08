@@ -8,7 +8,7 @@ public class FeuFollet : MonoBehaviour {
 	public bool	time = false;
 	private bool	time1 = false;
 	private bool	mouse = false;
-	public Transform lum;
+	//public Transform lum;
 	private Vector3 save;
 	// Use this for initialization
 	void Start ()
@@ -35,7 +35,7 @@ public class FeuFollet : MonoBehaviour {
 		if (time == true)
 		{
 			transform.position = new Vector3 (Camera.main.ScreenToWorldPoint (Input.mousePosition).x, Camera.main.ScreenToWorldPoint (Input.mousePosition).y, 0f);
-			transform.position = Vector3.MoveTowards (transform.position, lum.position, 0.1f);
+			//transform.position = Vector3.MoveTowards (transform.position, lum.position, 0.1f);
 		}
 	}
 	public void initpos()

@@ -24,7 +24,7 @@ public class FollowActive : MonoBehaviour {
 				index = 0;
 			if (players[index] != null)
 				player = GameObject.Find(players[index]);
-			if ( player.name == "shotBub(Clone)" && Input.GetKeyDown(KeyCode.Tab))
+			if (GameObject.Find("shotBub(Clone)") != null && player.name == "shotBub(Clone)" && Input.GetKeyDown(KeyCode.Tab))
 				player.GetComponent<FeuFollet>().activate = true;
 			else if (GameObject.Find("shotBub(Clone)") != null)
 				GameObject.Find("shotBub(Clone)").GetComponent<FeuFollet>().activate = false;
