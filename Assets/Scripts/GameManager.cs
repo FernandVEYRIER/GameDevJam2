@@ -38,11 +38,13 @@ public class GameManager : MonoBehaviour {
 
 	public void onReloadButton()
 	{
+		Time.timeScale = 1;
 		Application.LoadLevel(Application.loadedLevel);
 	}
 
 	public void onMenuButton()
 	{
+		Time.timeScale = 1;
 		Application.LoadLevel(0);
 	}
 
