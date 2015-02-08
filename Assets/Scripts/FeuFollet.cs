@@ -37,10 +37,14 @@ public class FeuFollet : MonoBehaviour {
 			transform.position = new Vector3 (Camera.main.ScreenToWorldPoint (Input.mousePosition).x, Camera.main.ScreenToWorldPoint (Input.mousePosition).y, 0f);
 			//transform.position = Vector3.MoveTowards (transform.position, lum.position, 0.1f);
 		}
+		if (time)
+			this.GetComponent<CircleCollider2D>().enabled = true;
+		else
+			this.GetComponent<CircleCollider2D>().enabled = false;
 	}
 	public void initpos()
 	{
-		transform.position = Vector3.MoveTowards (transform.position, Camera.main.ScreenToWorldPoint(new Vector3(40, Screen.height - 40, 1)), 0.1f);
+		transform.position = Vector3.MoveTowards (transform.position, Camera.main.ScreenToWorldPoint(new Vector3(40, Screen.height - 40, 0)), 0.1f);
 	}
 	public void SpawPos()
 	{
@@ -48,7 +52,6 @@ public class FeuFollet : MonoBehaviour {
 	}
 	void OnTriggerEnter2D(Collider2D col)
 	{
-		Debug.Log("collision");
 		if (col.tag != "Player" && activate == true)
 		{
 			time = false;

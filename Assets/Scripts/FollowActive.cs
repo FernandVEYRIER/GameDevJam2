@@ -20,7 +20,7 @@ public class FollowActive : MonoBehaviour {
 		{
 			if (GameObject.Find("shotBub(Clone)") != null)
 				index++;
-			if (index == players.Length)
+			if (index >= players.Length)
 				index = 0;
 			if (players[index] != null)
 				player = GameObject.Find(players[index]);

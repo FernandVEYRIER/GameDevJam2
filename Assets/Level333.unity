@@ -903,7 +903,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
 --- !u!61 &123317916
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -968,7 +968,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
 --- !u!61 &144000196
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1125,7 +1125,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
 --- !u!1 &193641576
 GameObject:
   m_ObjectHideFlags: 0
@@ -1675,6 +1675,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 299356233}
   - 61: {fileID: 299356232}
+  - 50: {fileID: 299356234}
   m_Layer: 8
   m_Name: GroundCollider
   m_TagString: Ground
@@ -1705,6 +1706,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2045249775}
   m_RootOrder: 26
+--- !u!50 &299356234
+Rigidbody2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 299356231}
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: .0500000007
+  m_GravityScale: 0
+  m_FixedAngle: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
 --- !u!1 &308572411
 GameObject:
   m_ObjectHideFlags: 0
@@ -2006,7 +2022,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
 --- !u!61 &363184519
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2142,7 +2158,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 21
 --- !u!1 &501887724
 GameObject:
   m_ObjectHideFlags: 0
@@ -2263,6 +2279,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 529042257}
   - 61: {fileID: 529042256}
+  - 50: {fileID: 529042258}
   m_Layer: 8
   m_Name: GroundCollider
   m_TagString: Ground
@@ -2293,6 +2310,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2045249775}
   m_RootOrder: 25
+--- !u!50 &529042258
+Rigidbody2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 529042255}
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: .0500000007
+  m_GravityScale: 0
+  m_FixedAngle: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
 --- !u!1 &536607564
 GameObject:
   m_ObjectHideFlags: 0
@@ -2832,6 +2864,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 651853432}
   - 61: {fileID: 651853431}
+  - 50: {fileID: 651853433}
   m_Layer: 8
   m_Name: GroundCollider
   m_TagString: Ground
@@ -2862,6 +2895,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2045249775}
   m_RootOrder: 27
+--- !u!50 &651853433
+Rigidbody2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 651853430}
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: .0500000007
+  m_GravityScale: 0
+  m_FixedAngle: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
 --- !u!1001 &664947109
 Prefab:
   m_ObjectHideFlags: 0
@@ -6615,7 +6663,7 @@ Transform:
   m_LocalScale: {x: 1, y: .5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 20
 --- !u!1 &1493078962
 GameObject:
   m_ObjectHideFlags: 0
@@ -7286,6 +7334,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1558769041}
   - 61: {fileID: 1558769042}
+  - 50: {fileID: 1558769043}
   m_Layer: 8
   m_Name: GroundCollider
   m_TagString: Ground
@@ -7316,6 +7365,21 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_Size: {x: 2.85681248, y: .58398962}
   m_Center: {x: 10.5441723, y: -.80304265}
+--- !u!50 &1558769043
+Rigidbody2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1558769040}
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: .0500000007
+  m_GravityScale: 0
+  m_FixedAngle: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
 --- !u!1 &1560001765
 GameObject:
   m_ObjectHideFlags: 0
@@ -7325,6 +7389,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1560001767}
   - 61: {fileID: 1560001766}
+  - 50: {fileID: 1560001768}
   m_Layer: 8
   m_Name: GroundCollider
   m_TagString: Ground
@@ -7355,6 +7420,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2045249775}
   m_RootOrder: 24
+--- !u!50 &1560001768
+Rigidbody2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1560001765}
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: .0500000007
+  m_GravityScale: 0
+  m_FixedAngle: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
 --- !u!1 &1591383843
 GameObject:
   m_ObjectHideFlags: 0
