@@ -3,7 +3,7 @@ using System.Collections;
 
 public class LeverDoorSystem : MonoBehaviour {
 
-	public GameObject door;	
+	public GameObject []door;	
 	public KeyCode key;
 
 	public Sprite leverSpriteOff;
@@ -15,11 +15,14 @@ public class LeverDoorSystem : MonoBehaviour {
 	{
 		if (canOpen && Input.GetKeyDown(key))
 		{
-			door.GetComponent<Animator>().SetBool("isOpen", !door.GetComponent<Animator>().GetBool("isOpen"));
-			if (door.GetComponent<Animator>().GetBool("isOpen"))
-				this.GetComponent<SpriteRenderer>().sprite = leverSpriteOn;
-			else
-				this.GetComponent<SpriteRenderer>().sprite = leverSpriteOff;
+			foreach (GameObject _door in door)
+			{
+				_door.GetComponent<Animator>().SetBool("isOpen", !_door.GetComponent<Animator>().GetBool("isOpen"));
+				if (_door.GetComponent<Animator>().GetBool("isOpen"))
+					this.GetComponent<SpriteRenderer>().sprite = leverSpriteOn;
+				else
+					this.GetComponent<SpriteRenderer>().sprite = leverSpriteOff;
+			}
 		}
 	}
 
