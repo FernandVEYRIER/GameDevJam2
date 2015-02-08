@@ -134,6 +134,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &185720
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 485720}
+  m_Layer: 0
+  m_Name: SpawLum
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!4 &467698
 Transform:
   m_ObjectHideFlags: 1
@@ -211,6 +226,7 @@ Transform:
   - {fileID: 482990}
   - {fileID: 467704}
   - {fileID: 467698}
+  - {fileID: 485720}
   m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!4 &482994
@@ -237,6 +253,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 482992}
   m_RootOrder: 0
+--- !u!4 &485720
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 185720}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .76700002, y: .0689999983, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 482992}
+  m_RootOrder: 5
 --- !u!12 &1267698
 ParticleAnimator:
   m_ObjectHideFlags: 1
@@ -514,7 +542,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WhatIsGround:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 256
   groundCheck: {fileID: 482996}
   Velocity: 300
   JumpForce: 300
@@ -549,8 +577,8 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 3854337419
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300070, guid: 301b0459e2022c747a3b2da727c3eab2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
