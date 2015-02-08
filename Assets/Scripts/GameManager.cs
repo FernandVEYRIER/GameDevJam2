@@ -63,6 +63,10 @@ public class GameManager : MonoBehaviour {
 	void respawnPlayer()
 	{		
 		player.SetActive(true);
+		if (checkpoint == null)
+			checkpoint = GameObject.Find("Respawn").GetComponent<Transform>();
+		Debug.Log(player);
+		Debug.Log(checkpoint);
 		player.transform.position = checkpoint.position;
 	}
 

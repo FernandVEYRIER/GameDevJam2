@@ -18,6 +18,12 @@ public class FeuFollet : MonoBehaviour {
 
 	void Update ()
 	{
+		if (Input.GetKeyDown(KeyCode.Tab) && time == true)
+		{
+			time = false;
+			activate = false;
+			mouse = false;
+		}
 		if (GameObject.Find("SpawLum") == null)
 			return;
 		if (activate == true)
