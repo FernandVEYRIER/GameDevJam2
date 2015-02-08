@@ -1090,7 +1090,7 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1055061230}
   m_GameObject: {fileID: 144000193}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b0d03e013062cd04ba998f587037bc20, type: 3}
   m_Name: 
@@ -5348,6 +5348,10 @@ Prefab:
       propertyPath: torch.Array.data[2]
       value: 
       objectReference: {fileID: 805300383}
+    - target: {fileID: 11401022, guid: ac6b49db39d33d2478182bcde77ae68d, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac6b49db39d33d2478182bcde77ae68d, type: 2}
   m_RootGameObject: {fileID: 144000193}
