@@ -48,6 +48,7 @@ public class FeuFollet : MonoBehaviour {
 	}
 	void OnTriggerEnter2D(Collider2D col)
 	{
+		Debug.Log("collision");
 		if (col.tag != "Player" && activate == true)
 		{
 			time = false;
