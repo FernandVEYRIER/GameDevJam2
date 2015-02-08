@@ -8388,7 +8388,7 @@ EllipsoidParticleEmitter:
   emitterVelocityScale: .0500000007
   tangentVelocity: {x: 0, y: 0, z: 0}
   angularVelocity: 55
-  rndAngularVelocity: -25
+  rndAngularVelocity: -24.9699993
   rndRotation: 1
   Simulate in Worldspace?: 1
   m_OneShot: 0
@@ -8717,6 +8717,10 @@ Prefab:
     - target: {fileID: 167704, guid: 89f926f016d3d97419da19b820850e00, type: 2}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567698, guid: 89f926f016d3d97419da19b820850e00, type: 2}
+      propertyPath: rndAngularVelocity
+      value: -24.9699993
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 89f926f016d3d97419da19b820850e00, type: 2}
