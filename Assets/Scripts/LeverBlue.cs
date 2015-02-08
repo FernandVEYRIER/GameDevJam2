@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class LeverBlue : MonoBehaviour {
-
+	
 	public Sprite	levier_on;
 	public Sprite	levier_off;
 	public GameObject	luciole;
